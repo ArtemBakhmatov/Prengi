@@ -1,0 +1,30 @@
+.header {
+    min-height: 85px;
+    padding: 20px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__block {
+        display: flex;
+        &_img {
+            margin-right: 11px;
+            width: 28px;
+            height: 21px;
+            img {
+                width: 100%;
+            }
+        }
+        &_text {
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 18px;
+            color: #242424;
+            span {
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+    }
+}

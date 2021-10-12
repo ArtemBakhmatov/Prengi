@@ -1,5 +1,6 @@
 @import "libs/bootstrap-reboot.min";
 @import "libs/fonts";
+@import "libs/slick";
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -12,6 +13,10 @@
     margin: 0 auto;
 }
 
+  
+
 @import "blocks/header";
+@import "blocks/promo";
+@import "blocks/buttons";
 
 @import "blocks/media";

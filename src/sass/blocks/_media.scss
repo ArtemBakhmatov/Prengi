@@ -11,10 +11,30 @@
             }
         }
     }
+    .promo {
+        min-height: 600px;
+        padding-top: 20px;
+        &__slider {
+            margin-top: -600px;
+            &_bg1 {
+                min-height: 600px;
+            }
+            &_bg2 {
+                min-height: 600px;
+            }
+            &_bg3 {
+                min-height: 600px;
+            }
+        }
+        &__right {
+            width: 350px;
+            margin-top: 30px;
+        }
+    }
 }
 
 @media (max-width: 992px) {
-    .container {
+    .container { 
         max-width: 720px;
     }
     .header {
@@ -27,11 +47,54 @@
             }
         }
     }
+    .promo {
+        min-height: 550px;
+        &__header {
+            flex-direction: column;
+            &_list {
+                margin-top: 30px;
+            }
+        }
+        &__right {
+            display: none;
+        }
+        &__left {
+            margin-top: 35px;
+        }
+        &__slider {
+            margin-top: -470px;
+            &_bg1 {
+                min-height: 550px;
+            }
+            &_bg2 {
+                min-height: 550px;
+            }
+            &_bg3 {
+                min-height: 550px;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
     .container {
         max-width: 540px;
+    }
+    .promo {
+        min-height: 548px;
+        &__left {
+            &_subtitle {
+                font-size: 35px;
+                line-height: 40px;
+            }
+            &__title {
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+        &__slider {
+            margin-top: -457px;
+        }
     }
 }
 
@@ -44,6 +107,50 @@
         &__wrapper {
             justify-content: flex-start;
             flex-direction: column;
+        }
+    }
+    .promo {
+        &__header {
+            &_list {
+                flex-direction: column;
+                width: 245px;
+                align-items: center;
+            }
+            &_item {
+                font-size: 17px;
+                margin-bottom: 20px;
+                a {
+                    padding: 0 20px 0 20px;
+                }
+            }
+        }
+        &__left {
+            &_subtitle {
+                font-size: 30px;
+                line-height: 35px;
+                width: 265px;
+            }
+            &_title {
+                font-size: 20px;
+                line-height: 26px;
+                width: 265px;
+            }
+            &_btn {
+                display: block;
+                margin: 35px auto 0 auto;
+            }
+        }
+        &__slider {
+            margin-top: -642px;
+            &_bg1 {
+                min-height: 700px;
+            }
+            &_bg2 {
+                min-height: 700px;
+            }
+            &_bg3 {
+                min-height: 700px;
+            }
         }
     }
 }

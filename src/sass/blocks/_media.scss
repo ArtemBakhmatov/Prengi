@@ -31,6 +31,11 @@
             margin-top: 30px;
         }
     }
+    .advantages {
+        &__wrapper {
+            justify-content: space-around;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -74,6 +79,15 @@
             }
         }
     }
+    .advantages {
+        padding: 40px 0;
+        &__block {
+            width: 340px;
+            &_icon {
+                left: 240px;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -94,6 +108,15 @@
         }
         &__slider {
             margin-top: -457px;
+        }
+    }
+    .advantages {
+        padding: 30px 0;
+        &__block {
+            width: 360px;
+            &_icon {
+                left: 260px;
+            }
         }
     }
 }
@@ -151,6 +174,28 @@
             &_bg3 {
                 min-height: 700px;
             }
+        }
+    }
+    .advantages {
+        padding: 20px 0;
+        &__block {
+            width: 275px;
+            height: 230px;
+            &_img {
+                width: 165px;
+                height: 150px;
+            }
+            &_title {
+                top: 150px;
+            }
+            &_icon {
+                left: 172px;
+                top: 132px;
+            }
+        }
+        &__subtitle {
+            font-size: 40px;
+            line-height: 40px;
         }
     }
 }

@@ -36,6 +36,29 @@
             justify-content: space-around;
         }
     }
+    .decisions {
+        min-height: 775px;
+        padding: 50px 0 50px 0;
+        &__img {
+            width: 800px;
+            height: 485px;
+        }
+        &__slider {
+            top: 279px;
+            width: 588px;
+            height: 400px;
+            .slick-prev {
+                left: -185px;
+            }
+            .slick-next {
+                right: -185px;
+            }
+        }
+        &__carousel {
+            width: 590px;
+            height: 366px;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -88,6 +111,45 @@
             }
         }
     }
+    .decisions {
+        padding: 30px 0 30px 0;
+        &__subtitle {
+            width: 600px;
+            font-size: 28px;
+            line-height: 32px;
+        }
+        &__list {
+            flex-direction: column;
+            width: 350px;
+            height: 330px;
+        }
+        &__item {
+            border-right: none;
+            padding-right: 0;
+            a {
+                font-size: 18px;
+            }
+        }
+        &__img {
+            width: 700px;
+            height: 420px;
+        }
+        &__slider {
+            top: 512px;
+            width: 512px;
+            height: 323px;
+            .slick-prev {
+                left: -95px;
+            }
+            .slick-next {
+                right: -95px;
+            }
+        }
+        &__carousel {
+            width: 515px;
+            height: 321px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -117,6 +179,30 @@
             &_icon {
                 left: 260px;
             }
+        }
+    }
+    .decisions {
+        &__subtitle {
+            width: 500px;
+        }
+        &__img {
+            width: 515px;
+            height: 305px;
+        }
+        &__slider {
+            top: 504px;
+            width: 378px;
+            height: 245px;
+            .slick-prev {
+                display: none;
+            }
+            .slick-next {
+                display: none;
+            }
+        }
+        &__carousel {
+            width: 378px;
+            height: 236px;
         }
     }
 }
@@ -196,6 +282,22 @@
         &__subtitle {
             font-size: 40px;
             line-height: 40px;
+        }
+    }
+    .decisions {
+        min-height: 550px;
+        &__subtitle {
+            width: 260px;
+            font-size: 25px;
+        }
+        &__list {
+            width: 262px;
+        }
+        &__img {
+            display: none;
+        }
+        &__slider {
+            display: none;
         }
     }
 }

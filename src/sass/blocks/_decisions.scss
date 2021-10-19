@@ -28,9 +28,10 @@
     &__item {
         border-right: 1px dotted white;
         height: 100%;
-        padding-right: 25px;
+        padding-right: 27px;
         &:nth-child(6) {
             border-right: none;
+            padding-right: 0;
         }
         a {
             font-size: 14px;

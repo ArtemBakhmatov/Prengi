@@ -1022,6 +1022,132 @@ progress {
   color: white;
 }
 
+.data {
+  position: relative;
+  min-height: 580px;
+}
+
+.data .container {
+  position: relative;
+}
+
+.data__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.data__img_left {
+  width: 960px;
+  height: 580px;
+  background: url("../img/data/cloud_storage.jpg") center center/cover no-repeat;
+}
+
+.data__img_right {
+  width: 960px;
+  height: 580px;
+  background: url("../img/data/webserver.jpg") center center/cover no-repeat;
+}
+
+.data__subtitle {
+  position: absolute;
+  top: -500px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 380px;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: center;
+  color: white;
+}
+
+.data__left {
+  position: absolute;
+  top: -340px;
+  width: 525px;
+  height: 167px;
+  padding-top: 38px;
+  padding-right: 40px;
+}
+
+.data__left_title {
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 30px;
+  text-align: right;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.data__left_descr {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: right;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.data__left_square {
+  height: 100%;
+  width: 167px;
+  background-color: rgba(0, 194, 240, 0.3);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.data__right {
+  position: absolute;
+  top: -340px;
+  right: 0;
+  width: 525px;
+  height: 167px;
+  padding-top: 38px;
+  padding-left: 40px;
+}
+
+.data__right_title {
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 30px;
+  text-align: left;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.data__right_descr {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.data__right_square {
+  height: 100%;
+  width: 167px;
+  background-color: rgba(0, 194, 240, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;

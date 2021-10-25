@@ -707,7 +707,7 @@ progress {
 }
 
 .btn {
-  width: 248px;
+  width: 250px;
   height: 60px;
   padding: 24px 46px 21px 45px;
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.07);
@@ -1145,6 +1145,62 @@ progress {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.access {
+  padding: 80px 0;
+}
+
+.access__wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 302px;
+  height: 302px;
+  border: 1px solid #00c2f0;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.access__block {
+  position: relative;
+  z-index: 1;
+}
+
+.access__block_hor {
+  position: absolute;
+  width: 302px;
+  height: 235px;
+  background-color: white;
+}
+
+.access__block_ver {
+  position: absolute;
+  width: 235px;
+  height: 302px;
+  background-color: white;
+}
+
+.access__subtitle {
+  width: 590px;
+  margin: 60px auto 0 auto;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: center;
+  color: #393939;
+}
+
+.access__btn {
+  display: block;
+  margin: 30px auto 0 auto;
 }
 
 @media (max-width: 1200px) {
